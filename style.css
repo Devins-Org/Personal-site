@@ -1,42 +1,85 @@
 /* style.css */
-body {
-    font-family: Arial, sans-serif;
+body {    
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    background-color: #08425f;*/
 }
+/*
+body {
+    background-image: url("Images/night-sky-milky-way-galaxy_601658-108.jpeg");
+    max-width: 960px;
+    color: #f8f8f8;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    background-position: center;
+    background-attachment: fixed;
+}*/
+
 
 header {
     
-    background-color: #181717;    
-    padding: 10px 0;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161617;    
+    padding: 2.5px;
+    margin-bottom: 5em;
+    position: fixed;
+    height: 125px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    height: 80px;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .site-title {
     font-family: "cursive", cursive, sans-serif;
-    font-size: 2.5em;
+    font-size: 3.5em;
     color: #00eaff;
     font-weight: bold;
     margin: 0;
     padding: 0;
     text-align: left;
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;            
+    
+    
+    
 }
 .site-subtitle {
-    font-family: "cursive", cursive, sans-serif;
-    font-size: 2.5em;
-    font-weight: bold;
-    color: ghostwhite;
-    margin-right: auto;
+    font-family: "Papyrus", cursive, sans-serif;
+    font-size: 4em;
+    font-weight: bold;    
+    margin-right: 0;
     padding: auto;
     text-align: left;
+    margin-left: 20px;    
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-weight: 100;
+    color: rgb(249, 251, 237);
+    text-shadow: rgb(0, 242, 255) 1px 0 10px;
+    display: flex;
+    justify-content: left;
+   
+
+
 }
-nav, ul {
-    list-style-type: none;
-    margin: auto;
-    padding: auto;    
-    text-align: right;
+nav ul {
+    list-style-type: none;    
     justify-content: right;
+    display: flex;
+    
 
 }
 
@@ -44,35 +87,96 @@ nav ul li {
     display: inline-flex;
     margin-right: 20px;
     text-align: right;
-    font-size: 1.5em;
-    
+    font-size: 1.5em;    
 }
 
+
+
+nav a:hover {
+    color: #00eaff;
+  }
+
 nav ul li a {
-    color: #ffff00;
-    text-decoration: none;
-    font-family: "cursive", cursive, sans-serif;
+    text-align: right;
+    margin-right: 20px;    
+    margin-top: 100px;
+    margin-bottom: 0px;
+    color: #fefefe;    
+    font-weight: bold;
+    font-family: "Papyrus", cursive, sans-serif;    
+    font-size: 1.75em;    
+    margin: 0;
+    padding: 0;
+    display: grid;
+
+
 }
 
 h1 {
+    display: block;
+    font-size: 3em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bolder;
     font-family: "cursive", cursive, sans-serif;
+
+}
+
+h2 {
+    font-family: "Papyrus", cursive, sans-serif;
     font-size: 2.5em;
-    color: #00eaff;
+    color: #fcfcfc;
     font-weight: bold;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-h2 {
-    font-family: "cursive", cursive, sans-serif;
-    font-size: 2.5em;
-    color: #00eaff;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
+.hero-quote {
+    font-family: 'brush Script MT';
+    font-weight: 100;
+    color: rgb(249, 251, 237);
+    text-shadow: rgb(255, 238, 0) 1px 0 10px;
+    font-size: 2.8em;
     text-align: center;
+    margin-top: auto;
+    }
+
+main {
+    position: flex;
+    left: 0;
+    right: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-sizing: border-box;           
+     
 }
+
+.table  {
+    min-height: 100vh;    
+    box-shadow: 0 0 12px -2px black;
+    font-family: Arial, "Papyrus", Helvetica, sans-serif;
+    display: inline-grid;    
+    text-align: center;   
+    padding: 0;
+    background-color: #161617;
+    color: #00eaff;
+    font-weight: bold;           
+    margin-left: 100px;
+    margin-right: 100px;       
+    margin-top: 100px;
+    margin-bottom: 200px;
+    border: 5px solid #00eaff;
+    border-radius: 25px;
+    position: flex;
+    box-sizing: border-box;
+       
+           
+    
+    
+  }
 
 .content {
     padding: 20px;
@@ -85,10 +189,23 @@ img {
     text-align: center;
     color: #00eaff;
     margin-left: 50px;
+    margin-right: 50px;
+    
 }
 
 footer {
-    color: #0048ff;
+    color: #00ff80;
+    background-color: #000000;
+    box-shadow: 0 -2px 4px -2px black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 64px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
+
 
 /* Add more styles for your content and layout */
