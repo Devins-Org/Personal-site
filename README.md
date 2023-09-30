@@ -55,7 +55,7 @@ If my project has multiple features, list them here along with brief description
 
 Share what I learned from working on this project. This include technical skills, problem-solving, or insights into the domain my project is related to.
 
-## What Makes Your Project Stand Out
+## What Makes My Project Stand Out
 
 Highlight what sets my project apart from others in a similar category. Discuss any unique or innovative aspects.
 
