@@ -23,15 +23,47 @@
         <!-- Your home content goes here -->
         <h1>Contact</h1>
         <!-- Add your personalized content and images -->
-        <img src="Images/Moon-Panda.png" alt="Devin Hamilton">
+        <div class="form-container">
+            <img src="Images/Moon-Panda.png" alt="Moon Panda" />
+        </div>
+        <div class="form-container">
+            <form id="form">
+                <h2>Contact Me</h2>
+                <p class="content">Please fill out the form below and I will get back to you as soon as possible.</p>
+
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+                
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </div>
         <p class="content">
     </main>   
+    <footer> 
+        <div class="media-links">        
+        <h3 class="media-title">Follow Me</h3>            
+        <a href="https://facebook.com" target="_blank">
+            <img class="media-link" src="images/facebook.svg" alt="Facebook Logo">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img class="media-link" src="images/twitter.svg" alt="Twitter Logo">
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+            <img class="media-link" src="images/linkedin.svg" alt="LinkedIn Logo">
+        </a>
+    </div>
+        <p class="copyright" &copy; 2023 Devin Hamilton>
+    </footer> 
+    <script src="path_to_your_file/contact.js" defer></script>
 
-    
-
-    <footer>
-        <p>&copy; 2023 Devin Hamilton</p>
-    </footer>
-    <script src="submit.js"></script>
 </body>
 </html>
