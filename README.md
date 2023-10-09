@@ -1,62 +1,57 @@
-# Personal-site
 # Devin's Personal Website
 
-# Motivation, Patience, and Hard-Worker are the keys to success.
+_Motivation, Patience, and Hard-Worker are the keys to success._
 
+## Overview
 
+Continue enhancing your personal website with advanced design features. The primary focus of this phase is CSS enhancements and a functional "Contact" page.
 
-# # Block09: Personal Website Project
+## Table of Contents
 
-## Description
-
-- **What it does:** Describe the primary purpose and functionality of my project.
-- **Why I used what I used:** Explain why I chose specific technologies, languages, or frameworks for my project.
-- **Challenges:** Mention some challenges me encountered during the development process.
-
-## Table of Contents (Optional)
-
-- [Installation](#installation)
+- [Features](#features)
+- [Instructions](#instructions)
 - [Usage](#usage)
+- [Installation](#installation)
 - [Credits](#credits)
 - [License](#license)
-- [Tests](#tests)
-- [Motivation](#motivation)
-- [Features](#features)
-
-## Installation
-
-Provide step-by-step instructions on how to install and set up my project. I can include code snippets or commands if necessary.
-
-## Usage
-
-Explain how to use my project. Include examples, screenshots, or code snippets if applicable.
-
-## Credits
-
-Give credit to any individuals or resources that contributed to my project.
-
-## License
-
-Include the license under which my project is distributed. For example, I can use a standard open-source license like MIT or Apache 2.0.
-
-## Tests
-
-Provide code examples and instructions on how to run tests for my project.
-
-## Motivation
-
-Explain what motivated me to start and complete this project. Discuss the problem my project solves and why it's important.
+- [What I Learned](#what-i-learned)
+- [Submission](#submission)
 
 ## Features
 
-If my project has multiple features, list them here along with brief descriptions.
+- **Design**: Enhanced layouts using CSS grid or flex.
+- **Responsive**: Proportional design elements and dynamic styling with hover effects.
+- **Contact Page**: New addition with a functional form redirecting to a success page upon submission.
+
+## Instructions
+
+1. Ensure the project satisfies all the criteria outlined in the workshop's rubric.
+2. Set up a GitHub Project for the site. Ensure every team member is included.
+3. Engage in collaborative planning by creating and discussing tickets.
+
+## Usage
+
+Once you navigate to the website, you're greeted with a sleek homepage showcasing a brief introduction. The navigation bar at the top allows you to seamlessly move between different sections: About, Portfolio, and the newly added Contact page. The Contact page features a user-friendly form where visitors can leave their name, email, and a brief message.
+
+## Installation
+
+1. Clone the GitHub repository to your local machine using `git clone [repository_url]`.
+2. Navigate to the project directory using your terminal or command prompt.
+3. Open the `index.html` file in a web browser to view the website.
+4. Alternatively, you can use tools like Live Server (available as an extension in VS Code) to view the website with live-reloading enabled.
+
+## Credits
+
+This project was heavily influenced by the teachings and guidance of my instructor at Fullstack Academy. In addition, I owe a profound debt of gratitude to the several mentors at MentorII, who, in collaboration with the instructor, played an instrumental role in our coding bootcamp training sessions. Their collective expertise, patience, and insights were invaluable in shaping both this project and my evolution as a developer. Beyond that, resources from online platforms like the Mozilla Developer Network (MDN), W3Schools, Stack Overflow, and the challenges on `exercism.org` significantly boosted my understanding and proficiency. Lastly, a heartfelt thanks to my peers for their continual feedback and camaraderie throughout this learning journey.
+
+## License
+
+This project is licensed under the MIT License. The MIT License is a short and simple permissive license with conditions requiring only the preservation of copyright and license notices. It allows the use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software. By including this license, others know their rights and responsibilities when using your work.
 
 ## What I Learned
 
-Share what I learned from working on this project. This include technical skills, problem-solving, or insights into the domain my project is related to.
+During the development of this project, I delved deeper into advanced CSS techniques and the nuances of form integration on web pages. I faced challenges in ensuring consistent styling across browsers and learned the intricacies of cross-browser compatibility. The process not only enhanced my technical skills but also broadened my perspective on design aesthetics and user experience.
 
-## What Makes My Project Stand Out
+## Submission
 
-Highlight what sets my project apart from others in a similar category. Discuss any unique or innovative aspects.
-
-
+Submit a link to your GitHub repository upon completion.
